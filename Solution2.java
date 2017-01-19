@@ -15,8 +15,7 @@ public class Solution2 {
         Scanner _input = new Scanner(System.in);
         StringBuilder builder = new StringBuilder();
 
-
-        while (_input.hasNextLine()) {
+		while (_input.hasNextLine()) {
             String interim = _input.nextLine().trim();
             try {
                 String type = interim.substring(0, 2);
